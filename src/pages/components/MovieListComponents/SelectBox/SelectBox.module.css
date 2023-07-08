@@ -1,0 +1,71 @@
+.dropDown{
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.title{
+  cursor: pointer;
+  padding: .6rem 1.2rem;
+  border-radius: .3rem;
+  background-color: #dadee3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title:hover,.titleActive{
+  background-color: #CED3DB;
+}
+
+.container{
+  width: 100%;
+  padding: 10px 0;
+  background-color: white;
+  border: 0.8px solid #CED3DB;
+  border-radius: 3px;
+  z-index: 20;
+}
+
+.list{
+  width: 100%;
+  font-size: 1.45rem;
+  max-height: 18rem;
+  min-height: 10rem;
+  overflow-y: auto;
+}
+
+.listItem{
+  cursor: pointer;
+  padding: .4rem 1.6rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.listItem:hover{
+  background-color: #F2F2F2;
+}
+
+.listItemSelected{
+  background-color: #F2F2F2;
+  font-weight: 600;
+}
+
+.listItemSelected:hover{
+  background-color: #01B4E4;
+}
+
+.input{
+  outline: none;
+  padding: .6rem 2rem .6rem 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #CED3DB;
+  display: block;
+  width: 90%;
+  margin: 0.8rem auto 1.6rem;
+  border-radius: .3rem;
+}
+
+.input:focus{
+  border-color: #01B4E4;
+}

@@ -1,0 +1,25 @@
+.topbar>ul>li{
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.topbar span{
+  font-weight: 400;
+}
+.topbar:first-child:after{
+  content:'';
+  width: 100%;
+  left: 0;
+  height: 5px;
+  background: var(--info);
+  position: absolute;
+  bottom:-10px;
+}
+.topbar > li:hover + ul,
+.topbar > ul:hover {
+  display: block;
+}
+.topbar>ul>li:hover{
+  background-color: aliceblue;
+}

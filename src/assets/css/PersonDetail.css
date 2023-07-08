@@ -1,0 +1,22 @@
+.biography-bg::after {
+  content: '';
+  position: absolute;
+  width:100%;
+  height: 2.2rem;
+  background-image: linear-gradient(to right, var(--transparent-bg) 0%, white 85%);
+  bottom:0;
+}
+.text__down1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.text__down2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

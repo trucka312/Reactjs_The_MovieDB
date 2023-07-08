@@ -1,0 +1,21 @@
+# https://editorconfig.org
+
+# Xác định thiết lập gốc
+root = true
+
+[*] # Setting cho toàn bộ file trong dự án
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 120
+trim_trailing_whitespace = true
+
+[*.json] # Setting cho file có đuôi là json
+indent_size = 4
+indent_style = space
+
+# Don't wrap lines for Git commit messages
+[COMMIT_EDITMSG]
+max_line_length = 0
